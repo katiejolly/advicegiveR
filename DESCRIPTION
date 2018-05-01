@@ -1,15 +1,16 @@
 Package: advicegiveR
 Type: Package
 Title: Generate Advice from the Advice Giver API
-Version: 0.1.0
-Author: Katie Jolly
-Maintainer: Katie Jolly katiejolly6@gmail.com
 Description: This package makes a call to the Advice Giver API to return a string of advice. 
     It can also format the string into an image that you can save. It can be used to make fun cards
-    or just generate fun advice for you. 
-License: MIT
+    or just generate fun advice for you.
+Version: 0.1.0
+Authors@R: person("Katie", "Jolly", role = c("aut", "cre"), email = "katiejolly6@gmail.com")
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
-Imports: magick, jsonlite
 License: MIT + file LICENSE
+BugReports: https://github.com/katiejolly/advicegiveR/issues
+Imports:
+  magick,
+  jsonlite
