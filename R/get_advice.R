@@ -9,7 +9,7 @@
 #' @export
 
 get_advice <- function(id = sample(1:216, 1)){
-  if(!is.integer(id)){
+  if(!(id%%1==0)){
     stop("Error: id must be an integer")
   }
   if(!(id >= 1 & id <= 216)){
@@ -24,7 +24,7 @@ get_advice <- function(id = sample(1:216, 1)){
 
 #' Loads one of the background images for your advice with magick package.
 #'
-#'@param image_name String that specifies which background you'd like to load. The options are clouds, rainbow, rain, mountain, ocean, or paper. Default is
+#'@param image_name String that specifies which background you'd like to load. The options are clouds, rainbow, mountain, ocean, sunset, or paper. Default is
 #'@return Image object
 #'
 #'@import jsonlite
