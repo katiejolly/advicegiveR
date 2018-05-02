@@ -21,3 +21,6 @@ Image with the advice message annotated on top of it
 \description{
 Prints advice on your background image (from advicegiveR::image_load())
 }
+\examples{
+print_advice(image = background, advice = advice_text, textcolor = "yellow", size = 35)
+}

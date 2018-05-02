@@ -6,9 +6,15 @@
 #'
 
 advice_image_load <- function(image_name = "clouds"){
-  # image_url <- paste0("https://raw.githubusercontent.com/katiejolly/advicegiveR/working/data/", image, ".jpg")
-  magick::image_read(image_name) %>%
-    image_scale("500")
+  image_url <- paste0("https://raw.githubusercontent.com/katiejolly/advicegiveR/working/data/", image_name, ".jpg") # create the url
+
+  tryCatch(
+    magick::image_read(image_url) %>%
+    image_scale("500"),
+    error = function(e){
+      message("Error: Please enter a valid image name. The options are clouds, mountain, ocean, paper, rainbow, or sunset")
+    }
+  )
 }
 
 #' Prints advice on your background image (from advicegiveR::image_load())

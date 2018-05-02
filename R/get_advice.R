@@ -2,7 +2,7 @@
 #
 #' @param id An integer between 1 and 216. Default is randomly generated.
 #' @return A string of advice
-#' @example get_advice(id = 4)
+#' @examples get_advice(id = 4)
 
 
 get_advice <- function(id = sample(0:217, 1)){

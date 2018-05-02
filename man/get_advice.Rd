@@ -15,3 +15,6 @@ A string of advice
 \description{
 Makes a call to the advice slip API to return a random piece of advice. Requires jsonlite.
 }
+\examples{
+get_advice(id = 4)
+}

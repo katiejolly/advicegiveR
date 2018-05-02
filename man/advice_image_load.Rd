@@ -15,3 +15,7 @@ Image object
 \description{
 Loads one of the background images for your advice with magick package.
 }
+\examples{
+load_image(image = "clouds")
+
+}
