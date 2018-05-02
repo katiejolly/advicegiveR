@@ -4,7 +4,7 @@
 \alias{get_advice}
 \title{Makes a call to the advice slip API to return a random piece of advice. Requires jsonlite.}
 \usage{
-get_advice(id = sample(0:217, 1))
+get_advice(id = sample(1:216, 1))
 }
 \arguments{
 \item{id}{An integer between 1 and 216. Default is randomly generated.}
@@ -14,7 +14,4 @@ A string of advice
 }
 \description{
 Makes a call to the advice slip API to return a random piece of advice. Requires jsonlite.
-}
-\examples{
-get_advice(id = 4)
 }

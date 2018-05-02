@@ -13,4 +13,6 @@ License: MIT + file LICENSE
 BugReports: https://github.com/katiejolly/advicegiveR/issues
 Imports:
   magick,
-  jsonlite
+  jsonlite,
+  stringr,
+  extrafont
