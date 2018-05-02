@@ -2,7 +2,7 @@
 % Please edit documentation in R/get_advice.R
 \name{get_advice}
 \alias{get_advice}
-\title{This function makes a call to the advice slip API to return a random piece of advice. Requires jsonlite.}
+\title{Makes a call to the advice slip API to return a random piece of advice. Requires jsonlite.}
 \usage{
 get_advice(id = sample(0:217, 1))
 }
@@ -13,5 +13,8 @@ get_advice(id = sample(0:217, 1))
 A string of advice
 }
 \description{
-This function makes a call to the advice slip API to return a random piece of advice. Requires jsonlite.
+Makes a call to the advice slip API to return a random piece of advice. Requires jsonlite.
+}
+\examples{
+get_advice(id = 4)
 }
