@@ -7,7 +7,7 @@
 load_image(image_name = "clouds")
 }
 \arguments{
-\item{image_name}{String that specifies which background you'd like to load. The options are clouds, rainbow, rain, mountain, ocean, or paper. Default is}
+\item{image_name}{String that specifies which background you'd like to load. The options are clouds, rainbow, mountain, ocean, sunset, or paper. Default is}
 }
 \value{
 Image object
