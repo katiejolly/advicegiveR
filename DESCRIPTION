@@ -11,7 +11,7 @@ LazyData: true
 RoxygenNote: 6.0.1
 License: MIT + file LICENSE
 BugReports: https://github.com/katiejolly/advicegiveR/issues
-Imports:
+Depends:
   magick,
   jsonlite,
   stringr,
