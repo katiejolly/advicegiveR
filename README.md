@@ -1,4 +1,6 @@
 
+[![Travis build status](https://travis-ci.org/katiejolly/advicegiveR.svg?branch=master)](https://travis-ci.org/katiejolly/advicegiveR)
+
 advicegiveR
 ===========
 
@@ -22,9 +24,9 @@ Get a random piece of advice:
 
 ``` r
 get_advice()
-#> The id you are using is 91
-#> API endpoint = http://api.adviceslip.com/advice/91
-#> [1] "Drink a glass of water before meals."
+#> The id you are using is 40
+#> API endpoint = http://api.adviceslip.com/advice/40
+#> [1] "Never run with scissors."
 ```
 
 The advice slip API has 216 different outputs (from what I can tell). You can also request a particular piece of advice using the `id` argument. If you get a random piece of advice, the function will tell you what `id` it ended up using so you can find it again.

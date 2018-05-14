@@ -16,3 +16,5 @@ Depends:
   jsonlite,
   stringr,
   extrafont
+Suggests: 
+  testthat

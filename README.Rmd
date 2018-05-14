@@ -10,6 +10,8 @@ knitr::opts_chunk$set(
 )
 ```
 
+[![Travis build status](https://travis-ci.org/katiejolly/advicegiveR.svg?branch=master)](https://travis-ci.org/katiejolly/advicegiveR)
+
 # advicegiveR
 
 The goal of advicegiveR is to provide an easy way to make calls to the [advice slip API](http://api.adviceslip.com/). It also provides a fun way to share the advice you get!
